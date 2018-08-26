@@ -1,0 +1,1 @@
+{"maxscore":12,"scores":[{"name":"yourname","score":416}]}
