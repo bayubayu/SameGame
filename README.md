@@ -117,15 +117,8 @@ Line 72:
 
 ```actionscript
 // Options
-private var optionEnableSelectFirst:Boolean = false; // enable select
-balls before destroyed (needs 2x click to destroy)
-private var optionEnableHoverSelect:Boolean = true; // enable hover
-select
-if you want to click to select tiles and click again to destroy them
-(good for touchscreen/mobile game), set
-optionEnableSelectFirst:Boolean = true;
-and
-optionEnableHoverSelect:Boolean = false;
+private var optionEnableSelectFirst:Boolean = false; // enable select balls before destroyed (needs 2x click to destroy)
+private var optionEnableHoverSelect:Boolean = true; // enable hover select if you want to click to select tiles and click again to destroy them (good for touchscreen/mobile game), set optionEnableSelectFirst:Boolean = true; and optionEnableHoverSelect:Boolean = false;
 ```
 
 ClassicSameGame.as startGame method:
